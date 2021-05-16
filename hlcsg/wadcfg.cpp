@@ -5,7 +5,7 @@
 
 //#ifdef SYSTEM_WIN32
 #if defined(SYSTEM_WIN32) && !defined( __GNUC__ )
-#   include "atlbase.h" // win32 registry API
+#   include <Windows.h>// win32 registry API
 #else
 char *g_apppath = NULL; //JK: Stores application path
 #endif
