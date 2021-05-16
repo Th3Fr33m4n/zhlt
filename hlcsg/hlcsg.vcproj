@@ -567,10 +567,10 @@
 				RelativePath=".\wadpath.h"
 				>
 			</File>
-			<File
+			<!--<File
 				RelativePath="..\common\win32fix.h"
 				>
-			</File>
+			</File>-->
 			<File
 				RelativePath="..\common\winding.h"
 				>

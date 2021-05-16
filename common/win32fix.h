@@ -15,8 +15,8 @@
 #define strncasecmp _strnicmp
 #define strcasecmp  _stricmp
 
-#define snprintf  _snprintf
-#define vsnprintf _vsnprintf
+//#define snprintf  _snprintf
+//#define vsnprintf _vsnprintf
 
 #define finite    _finite
 
