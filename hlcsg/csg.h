@@ -11,7 +11,7 @@
 
 #include "cmdlib.h"
 #include "messages.h"
-//#include "win32fix.h"
+#include "win32fix.h"
 #include "log.h"
 #include "hlassert.h"
 #include "mathlib.h"

@@ -290,7 +290,7 @@
     <ClInclude Include="..\common\messages.h" />
     <ClInclude Include="..\common\scriplib.h" />
     <ClInclude Include="..\common\threads.h" />
-    <!--<ClInclude Include="..\common\win32fix.h" />-->
+    <ClInclude Include="..\common\win32fix.h" />
     <ClInclude Include="..\common\winding.h" />
     <ClInclude Include="csg.h" />
     <ClInclude Include="wadpath.h" />

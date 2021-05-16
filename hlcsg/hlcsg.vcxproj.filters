@@ -124,9 +124,9 @@
     <ClInclude Include="wadpath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <!--<ClInclude Include="..\common\win32fix.h">
+    <ClInclude Include="..\common\win32fix.h">
       <Filter>Header Files</Filter>
-    </ClInclude>-->
+    </ClInclude>
     <ClInclude Include="..\common\winding.h">
       <Filter>Header Files</Filter>
     </ClInclude>
