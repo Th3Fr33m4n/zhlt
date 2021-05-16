@@ -35,28 +35,28 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: hlcsg
-        path: a\zhlt\bin\hlcsg.exe
+        path: D:\a\zhlt\bin\hlcsg.exe
 
     - name: Archive hlbsp
       uses: actions/upload-artifact@v2
       with:
         name: hlbsp
-        path: a\zhlt\bin\hlbsp.exe
+        path: D:\a\zhlt\bin\hlbsp.exe
 
     - name: Archive hlvis
       uses: actions/upload-artifact@v2
       with:
         name: hlvis
-        path: a\zhlt\bin\hlvis.exe
+        path: D:\a\zhlt\bin\hlvis.exe
 
     - name: Archive hlrad
       uses: actions/upload-artifact@v2
       with:
         name: hlrad
-        path: a\zhlt\bin\hlrad.exe
+        path: D:\a\zhlt\bin\hlrad.exe
   
     - name: Archive ripent
       uses: actions/upload-artifact@v2
       with:
         name: ripent
-        path: a\zhlt\bin\ripent.exe
+        path: D:\a\zhlt\bin\ripent.exe
