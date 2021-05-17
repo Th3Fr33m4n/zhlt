@@ -31,32 +31,8 @@ jobs:
       # See https://docs.microsoft.com/visualstudio/msbuild/msbuild-command-line-reference
       run: msbuild /m /p:Configuration=${{env.BUILD_CONFIGURATION}} ${{env.SOLUTION_FILE_PATH}}
 
-    - name: Archive hlcsg
+    - name: Archive zhlt tools
       uses: actions/upload-artifact@v2
       with:
-        name: hlcsg
-        path: D:\a\zhlt\bin\hlcsg.exe
-
-    - name: Archive hlbsp
-      uses: actions/upload-artifact@v2
-      with:
-        name: hlbsp
-        path: D:\a\zhlt\bin\hlbsp.exe
-
-    - name: Archive hlvis
-      uses: actions/upload-artifact@v2
-      with:
-        name: hlvis
-        path: D:\a\zhlt\bin\hlvis.exe
-
-    - name: Archive hlrad
-      uses: actions/upload-artifact@v2
-      with:
-        name: hlrad
-        path: D:\a\zhlt\bin\hlrad.exe
-  
-    - name: Archive ripent
-      uses: actions/upload-artifact@v2
-      with:
-        name: ripent
-        path: D:\a\zhlt\bin\ripent.exe
+        name: tools
+        path: D:\a\zhlt\bin\*
